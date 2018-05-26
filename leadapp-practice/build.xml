@@ -43,10 +43,7 @@
         <jar jarfile = "${jar.dest}/${app.name}.jar"
              basedir = "${javac.dest}" 
             includes = "**/*.class"/>
-    </target>
-
-
-    <target name="war"
+    </target>    <target name="war"
          depends="jar"
      description="builds the application war file">    	
        
@@ -81,7 +78,7 @@
 
 
     <!-- Deploys the Application to Tomcat -->
-    <target name="deploy" depends="war, tomcat-clean">
+    <target name="deploy" depends="war">
         <copy file="${jar.dest}/${app.name}.war"
             tofile="${tomcat.webapps}/${app.name}.war" />
     </target>
