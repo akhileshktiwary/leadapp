@@ -1,0 +1,50 @@
+
+
+GIT: 
+distributed version contrl system
+
+Verson control tools: svn, git, perforce, clearcase, cvs, TFS(.net)
+
+svn: centralizd verion control system
+git: distributed version control system
+diff: 
+
+git: bitbucket, github, gitlab, gitweb, gitlist, gitolite
+
+git commands:
+git clone || svn checkout
+git status
+git add ./*/--all
+git commit filename/* -m"commit message"     ||  commit to local only 
+git rm
+git pull  
+git push //pushing to remote server
+git merge \\ pull request concept 
+
+
+github
+
+
+
+git: 
+master branches
+all other branches{master, development, feature, bugfix...}
+tags
+
+
+SVN: trunk, branches, tags
+
+  git config --global user.email "akhilesh@admin.com"
+  git config --global user.name "akhilesh"
+  
+  
+ git branch branchname
+ 
+ git branch -a
+ 
+ git checkout devbranch
+ 
+ git checkout master
+ 
+  
+  
